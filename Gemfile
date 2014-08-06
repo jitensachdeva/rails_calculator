@@ -32,10 +32,17 @@ end
 
 gem 'devise'
 
+gem 'angularjs-rails'
+
+gem 'ng-rails-csrf'
+
+
+
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'jslint_on_rails'
+  gem 'jasmine'
 end
 
 group :production do

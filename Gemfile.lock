@@ -26,6 +26,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     addressable (2.3.6)
+    angularjs-rails (1.2.20)
     arel (4.0.2)
     arrayfields (4.9.2)
     awesome_print (1.2.0)
@@ -74,6 +75,12 @@ GEM
     hike (1.2.3)
     hirb (0.7.2)
     i18n (0.6.11)
+    jasmine (2.0.2)
+      jasmine-core (~> 2.0.0)
+      phantomjs
+      rack (>= 1.2.1)
+      rake
+    jasmine-core (2.0.1)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -113,9 +120,11 @@ GEM
     minitest (4.7.5)
     multi_json (1.10.1)
     netrc (0.7.7)
+    ng-rails-csrf (0.1.0)
     orm_adapter (0.5.0)
     parallel (1.1.2)
     pg (0.17.1)
+    phantomjs (1.9.7.1)
     polyglot (0.3.5)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -230,11 +239,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  angularjs-rails
   devise
+  jasmine
   jbuilder (~> 1.2)
   jquery-rails
   jslint_on_rails
   metric_fu
+  ng-rails-csrf
   pg (= 0.17.1)
   rails (= 4.0.8)
   rails_12factor (= 0.0.2)
