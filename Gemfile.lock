@@ -123,7 +123,6 @@ GEM
     ng-rails-csrf (0.1.0)
     orm_adapter (0.5.0)
     parallel (1.1.2)
-    pg (0.17.1)
     phantomjs (1.9.7.1)
     polyglot (0.3.5)
     rack (1.5.2)
@@ -247,7 +246,6 @@ DEPENDENCIES
   jslint_on_rails
   metric_fu
   ng-rails-csrf
-  pg (= 0.17.1)
   rails (= 4.0.8)
   rails_12factor (= 0.0.2)
   rspec-rails

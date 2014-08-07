@@ -1,3 +1,4 @@
+
 <div ng-app="calculator_app" ng-controller="calculator_controller">
   <input type="text" ng-model="command">
 
@@ -6,7 +7,7 @@
   <div id="result">{{result}} </div>
 
   <div id="commandHistory" >
-    <li ng-repeat=" cmd in commands"> {{ cmd }} </li>
+    <li ng-repeat=" cmd in commands track by $index"> {{ cmd }} </li>
   </div>
 
 </div>

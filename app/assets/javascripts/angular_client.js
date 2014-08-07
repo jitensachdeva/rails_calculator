@@ -1,6 +1,6 @@
 // Place all the behaviors and hooks related to the matching controller here.
 // All this logic will automatically be available in application.js.
-angular.module('calculator_app', [])
+angular.module('calculator_app', ['ng-rails-csrf'])
     .controller('calculator_controller', function($scope ,$http) {
         $scope.commands = [];
         $scope.result ='';

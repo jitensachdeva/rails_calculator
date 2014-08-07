@@ -37,16 +37,16 @@ gem 'angularjs-rails'
 gem 'ng-rails-csrf'
 
 
-
+gem 'sqlite3'
 group :development, :test do
-  gem 'sqlite3'
+
   gem 'rspec-rails'
   gem 'jslint_on_rails'
   gem 'jasmine'
 end
 
 group :production do
-  gem 'pg', '0.17.1'
+  #gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
 
